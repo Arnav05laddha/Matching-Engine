@@ -1,0 +1,36 @@
+# IDE / Editor settings
+.vscode/
+
+# Build output
+build/
+out/
+bin/
+lib/
+
+# CMake bundled folder and zip
+cmake-*/
+cmake.zip
+
+# Data files
+data/
+
+# Compiled object files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# OS files
+.DS_Store
+Thumbs.db
